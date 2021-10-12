@@ -18,4 +18,5 @@ using android studio and sqllite to save data
 * Connect to server DB through web services.
 
 ## Project Schema
+![Shooping app Schema ](https://user-images.githubusercontent.com/45799323/137010162-b194a471-50c2-449c-98a9-3627c3691b1c.png)
 
