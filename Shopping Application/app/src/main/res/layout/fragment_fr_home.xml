@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fr_home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <ImageButton
+                android:id="@+id/Btn_ShoppingCart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/lightgrey_circle_button"
+                android:drawableRight="@drawable/ic_shopping_cart_black_24dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_shopping_cart_black_24dp"
+                android:textColor="@color/teal" />
+
+            <EditText
+                android:id="@+id/SearchBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/edittext_rounded"
+                android:drawableRight="@drawable/ic_search_black_24dp"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="search by product name "
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</FrameLayout>

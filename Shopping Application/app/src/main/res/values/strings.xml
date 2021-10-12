@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Online_Shopping</string>
+    <string-array name="SecurityOptions">
+        <item> What is your house number ?</item>
+        <item> What is your street name ?</item>
+        <item>What were the digits of your telephone number?</item>
+        <item> What primary school did you attend ?</item>
+        <item>In what town or city was your job ?</item>
+        <item> In what city did you meet your partner ?</item>
+        <item> What is the name of your oldest child ?</item>
+        <item> What are your driver\'s license number ?</item>
+        <item> What is your grandmother\'s name?</item>
+        <item>What is your mother\'s maiden name ?</item>
+        <item> In what city did your parents meet ?</item>
+        <item>  What time of the day were you born ?</item>
+        <item> What time of the day was your first child born</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="City">
+        <item>Cairo</item>
+        <item>Alexandria</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location">Map</string>
+</resources>
