@@ -1,4 +1,4 @@
-# Shopping-Application
+# Online-Shopping-Application
 Mobile Androide application that allows the user to buy different products and track the projet deleviery
 using android studio and sqllite to save data
 
